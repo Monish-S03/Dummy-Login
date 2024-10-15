@@ -1,0 +1,74 @@
+body{
+    background-image: url(./backgroundimage/ryunosuke-kikuno-WqOfd6pnXIY-unsplash.jpg);
+    background-size: cover;
+    
+}
+p{
+    color: rgb(121, 210, 245);
+    text-align: center;
+    text-transform:uppercase;
+    text-shadow: 2px 2px 15px rgb(228, 122, 122);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+p::first-letter{
+    color: rgb(114, 228, 99);
+    font-size: larger;
+}
+.user .password .button{
+    display: inline-block;
+}
+.form{
+    height: 280px;
+    width: 300px;
+    border: none;
+    margin-top: 150px;
+    margin-left: 600px;
+    padding: 70px;
+    background-image: url(./backgroundimage/ryunosuke-kikuno-WqOfd6pnXIY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 2px 8px 5px rgb(212, 212, 122);
+    border-radius: 20px;
+}
+label,input,button{
+    width: 250px;
+    height: 30px;
+    margin-top: 30px;
+}
+.button{
+    margin-left: 13px;
+}
+.form i{
+    color: white;
+}
+.form .button i{
+    color: rgb(66, 163, 82);
+}
+input,button{
+    background-color: transparent;
+    font-style: italic;
+    border-radius: 10px;
+    outline: none;
+    color: lightsteelblue;
+}
+::placeholder{
+    color: rgb(214, 78, 78);
+    font-style: italic;
+}
+button{
+    color: rgb(45, 167, 41);
+    font-size: 20px;
+}
+button:hover{
+    opacity: 0.2px;
+    box-shadow: 2px 2px 10px 7px lightyellow;
+}
+.form:hover{
+    background-color: rgba(rgb(42, 6, 99), rgb(130, 189, 35), rgb(24, 103, 150), 0.5);
+    box-shadow: 2px 2px 7px 5px lightblue;
+}
+input:hover{
+    opacity: 0.3;
+    box-shadow: 2px 2px 10px 7px lemonchiffon;
+}
